@@ -50,7 +50,7 @@ for COS80021: Developing Web Applications
 $host = "feenix-mariadb.swin.edu.au";
 $dbname = "s104182850_db";
 $username = "s104182850";
-$password = "Gignrg7321!";
+$password = "**\*\*\*\***";
 
 ## Links
 
