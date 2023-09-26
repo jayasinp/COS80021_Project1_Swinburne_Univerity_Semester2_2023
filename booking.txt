@@ -1,0 +1,23 @@
+Pravin Mark Jayasinghe 
+104182850 
+COS80021: Developing Web Applications 
+Project 1 
+
+booking.txt: Allows developer to create booking table with SQL code
+
+CREATE TABLE booking (
+    booking_number INT AUTO_INCREMENT PRIMARY KEY,
+    email_address VARCHAR(255) NOT NULL,
+    passenger_name VARCHAR(255) NOT NULL,
+    passenger_phone_number VARCHAR(15) NOT NULL,
+    unit_number VARCHAR(10) NULL,
+    street_number VARCHAR(10) NOT NULL,
+    street_name VARCHAR(255) NOT NULL,
+    suburb VARCHAR(100) NOT NULL,
+    destination_suburb VARCHAR(100) NOT NULL,
+    pickup_date DATE NOT NULL,
+    pickup_time TIME NOT NULL,
+    FOREIGN KEY (email_address) REFERENCES customer(email)
+);
+
+ALTER TABLE booking ADD status VARCHAR(20) NOT NULL DEFAULT 'unassigned';

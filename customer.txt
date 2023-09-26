@@ -1,0 +1,13 @@
+Pravin Mark Jayasinghe 
+104182850 
+COS80021: Developing Web Applications 
+Project 1 
+
+customer.txt: Allows developer to create customer table with SQL code 
+
+CREATE TABLE customer (
+    email VARCHAR(255) PRIMARY KEY,
+    customer_name VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    phone_number VARCHAR(255) NOT NULL
+);

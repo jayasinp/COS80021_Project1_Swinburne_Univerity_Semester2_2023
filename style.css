@@ -1,0 +1,16 @@
+/* 
+Pravin Mark Jayasinghe 
+104182850 
+COS80021: Developing Web Applications
+Project 1 
+
+style.css: Adds very small changes to Bootstrap default styling*/
+
+body {
+    font-family: "Jost", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
